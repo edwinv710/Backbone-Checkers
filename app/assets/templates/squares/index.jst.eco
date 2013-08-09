@@ -1,0 +1,10 @@
+<table id="checker_board" cellpadding="0" cellspacing="0">
+    <tr id=<%='row-0'%>></tr>  
+    <tr id=<%="row-1"%>></tr> 
+    <tr id=<%="row-2"%>></tr> 
+    <tr id=<%="row-3"%>></tr> 
+    <tr id=<%="row-4"%>></tr> 
+    <tr id=<%="row-5"%>></tr> 
+    <tr id=<%="row-6"%>></tr>
+    <tr id=<%="row-7"%>></tr>    
+</table>

@@ -1,0 +1,6 @@
+<font size='7'>
+<% if 'white' in [@model.get('color')]: %>
+  &#9675;
+<%else:%>
+  &#9679;	
+</font>
