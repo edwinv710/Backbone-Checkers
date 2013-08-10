@@ -4,3 +4,8 @@ Backbone checkers is a simple project I created to find a way to integrate backb
 
 I am a firm believer in structure and convention when developing any project. Having a set way of doing things allows for readability and productivity. From the moment I started to use backbone.js I realize that while it provides a mean to structure javascript, there was not a universal right way to do so. This project is just my attempt in finding a preffered method to structure my work when using backbone.js with rails.
 
+Todo:
+* Implement Gameplay
+
+Heroku: http://backbonecheckers.herokuapp.com/
+* The version on heroku will most likely not be the most up version. I only upload it to heroku when I want to check if a feature works in production mode. 
