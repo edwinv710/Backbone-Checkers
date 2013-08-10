@@ -6,6 +6,5 @@ class Checkers.Views.PieceShow extends Backbone.View
   	@model.on('reset', @render, this)
 
   render: ->
-    alert "about to render piece"
     $(@el).html(@template(model: @model))
     this
