@@ -38,13 +38,19 @@ class Checkers.Routers.Games extends Backbone.Router
 
   index: ->    
     @createSquares()
+    #alert "Square Created"
     @createWhitePieces()
+    #alert "White"
     @createBalckPieces()
-
+    #alert "Black"
+   
     boardView = new Checkers.Views.SquaresIndex({collection: @squares, whitePieces: @whitePieces, blackPieces: @blackPieces})
     whitePiecesView = new Checkers.Views.PiecesIndex(collection: @whitePieces, blackPieces: @blackPieces)
     blackPiecesView = new Checkers.Views.PiecesIndex(collection: @blackPieces, blackPieces: @blackPieces)
 
+   # alert "views"
+   
     $('#container').html(boardView.render().el)
+   
     whitePiecesView.render()
     blackPiecesView.render()
