@@ -14,5 +14,4 @@ class Checkers.Views.PiecesIndex extends Backbone.View
       if 'true' in [@piece.get('alive')]
         x = @piece.get('x')
         y = @piece.get('y')
-        alert "alive at #{x} #{y}"
         $("td[data-x='#{x}'][data-y='#{y}']").append(pieceView.render().el)

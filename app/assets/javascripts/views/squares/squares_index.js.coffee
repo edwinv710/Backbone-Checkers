@@ -12,5 +12,4 @@ class Checkers.Views.SquaresIndex extends Backbone.View
         square = @collection.at((8*i+j))
         modelView = new Checkers.Views.SquareShow({model: square})
         $(@el).find("#row-#{i}").append(modelView.render().el)
-        alert "square added"
     this
